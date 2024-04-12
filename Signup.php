@@ -19,5 +19,6 @@
       <input type="password" name="Password"><br>
       <button type="submit">Submit</button>
     </form>
+    <p>If you are already signed up then you can go to the <a href="Login.php">Login</a> page.</p>
   </body>
 </html>
