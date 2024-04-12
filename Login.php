@@ -1,3 +1,18 @@
+<?php
+
+$host = "localhost";
+$user = "naesdb";
+$pass = "Naes";
+$db = "naesdb";
+
+$connection = mysqli_connect($host, $user, $pass, $db);
+
+if (mysqli_connect_errno()) {
+	echo "Failed to connect to the database: " . mysqli_connect_error();
+	exit();
+}
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
